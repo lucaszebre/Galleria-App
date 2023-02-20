@@ -89,10 +89,12 @@ Error generating stack: `+l.message+`
     position: relative;
     transition: all 0.2s ease-in-out;
     cursor: pointer;
+    @media (min-width: 1024px) {
     &:hover {
         transform: scale(1.05);
         transition: all 0.2s ease-in-out;
         cursor: pointer;
+    }
     }
 `,Rv=br.div` 
     color: #fff;
@@ -124,12 +126,14 @@ Error generating stack: `+l.message+`
     `,zv=br.img`
     width: 21.8vw;
     height: 100%;
+    @media (min-width: 1024px) {
     &:hover {
         transform: scale(1.05);
         transition: all 0.2s ease-in-out;
         cursor: pointer;
         filter: grayscale(90%);
     }
+}
     @media (max-width:1024px) and (min-width: 768px) {
         width: 40vw;
     }
